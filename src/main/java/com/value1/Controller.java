@@ -9,4 +9,8 @@ public class Controller {
 	public String getMsg() {
 		return "DevOps Config";
 	}
+	@GetMapping(value="/getName")
+	public String getActor() {
+		return "Hello";
+	}
 }
